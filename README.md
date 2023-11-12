@@ -1,4 +1,3 @@
-
 # Simple CRUD App with NiceGUI, Pydantic, and MongoDB
 
 This is a straightforward CRUD (Create, Read, Update, Delete) application constructed using various technologies to streamline data management.
@@ -21,4 +20,32 @@ This is a straightforward CRUD (Create, Read, Update, Delete) application constr
 
 This project is open and freely available for reuse under the [MIT License](https://opensource.org/licenses/MIT).
 
+## Cloning Project
 
+Here's a set of commands you can run in your terminal or command prompt to set up a virtual environment, activate it, and install the required dependencies for the project:
+
+```bash
+# Create a virtual environment named 'crud'
+python3 -m venv crud
+
+# Activate the virtual environment (for Unix-based systems)
+source crud/bin/activate
+
+# Activate the virtual environment (for Windows)
+# .\crud\Scripts\activate
+
+# Upgrade pip
+pip install --upgrade pip
+
+# Install project dependencies from requirements.txt
+pip install -r requirements.txt
+```
+
+These commands will:
+
+1. Create a virtual environment named 'crud'.
+2. Activate the virtual environment.
+3. Upgrade `pip` within the virtual environment to the latest version.
+4. Install the necessary dependencies listed in the `requirements.txt` file for the project.
+
+This setup isolates the project dependencies within the virtual environment, ensuring they don't conflict with other projects or the system-wide Python installation. Adjust the commands as needed for your specific environment and operating system.
