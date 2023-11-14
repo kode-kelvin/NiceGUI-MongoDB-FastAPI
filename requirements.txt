@@ -9,6 +9,7 @@ bidict==0.22.1
 certifi==2023.7.22
 charset-normalizer==3.3.2
 click==8.1.7
+dnspython==2.4.2
 fastapi==0.104.1
 fastapi-socketio==0.0.10
 frozenlist==1.4.0
@@ -29,6 +30,8 @@ pscript==0.7.7
 pydantic==2.4.2
 pydantic_core==2.10.1
 Pygments==2.16.1
+pymongo==4.6.0
+python-decouple==3.8
 python-dotenv==1.0.0
 python-engineio==4.8.0
 python-multipart==0.0.6
